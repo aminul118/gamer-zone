@@ -73,3 +73,23 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+/* Section Goat or section 1 starts here*/
+
+.section-goat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.goat-left{
+    width: 50%;
+    /* border: 2px solid yellow; */
+   
+}
+.goat-right{
+    width: 50%;
+    /* border: 2px solid cyan; */
+}
