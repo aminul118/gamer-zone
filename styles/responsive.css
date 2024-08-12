@@ -1,4 +1,8 @@
 @media screen and (max-width: 576px) {
+  .btn-signin,.btn-go-rogue {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
   .nav-container {
     box-shadow: none;
   }
@@ -11,6 +15,33 @@
     gap: 1rem;
     padding-top: 1rem;
   }
+  .section-goat {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 80px;
+    width: 90%;
+  }
+  .goat-left {
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .goat-right {
+    width: 100%;
+    /* border: 2px solid cyan; */
+  }
+  .section-container {
+    background-image: none;
+  }
+  .play {
+    font-size: 2.5rem;
+  }
+  .goat {
+    font-size: 4rem;
+  }
 
-  
+
 }
