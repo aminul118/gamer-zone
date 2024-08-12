@@ -161,11 +161,65 @@
 }
 .gamer-right {
   width: 50%;
-   display: flex;
+  display: flex;
   flex-direction: column;
   gap: 1rem;
   text-align: end;
 }
-.we-are-gamer{
+.we-are-gamer {
   font-size: 3rem;
+}
+
+/* Online Games Funny Videos Section or section 3 stars here */
+
+.section-three{
+width: 80%;
+margin: 0 auto;
+
+}
+
+.online-games-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.online-games-container div>img{
+  width: 100%;
+}
+
+.online-games {
+  font-size: 3rem;
+}
+.funny-video-top {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.online-games-1st-card {
+  position: relative;
+}
+.watch-now {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  text-align: center;
+  color: red;
+  display: none;
+}
+
+.online-games-1st-card img:hover{
+  filter: brightness(50%);
+}
+
+.online-games-1st-card img:hover + .watch-now {
+  display: block;
+}
+.play{
+  font-size: 4rem;
+  color: white;
+}
+.play>p{
+  color: tomato;
+  font-size: 1.2rem;
 }

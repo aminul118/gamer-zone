@@ -57,8 +57,15 @@
     width: 100%;
     text-align: center;
   }
-  .we-are-gamer{
+  .we-are-gamer {
     font-size: 2rem;
   }
-  
+  .section-three {
+    width: 90%;
+    
+  }
+  .online-games-container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1rem;
+  }
 }
