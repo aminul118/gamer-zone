@@ -30,6 +30,9 @@
     flex-direction: column;
     gap: 1.2rem;
   }
+  .online-games {
+    font-size: 2rem;
+  }
   .goat-right {
     width: 100%;
     /* border: 2px solid cyan; */
@@ -62,33 +65,29 @@
   }
   .section-three {
     width: 90%;
-    
   }
   .online-games-container {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 1rem;
   }
- 
 
-  .play-instant-container{
+  .play-instant-container {
     flex-direction: column;
     width: 90%;
     gap: 1.2rem;
- 
   }
-  .play-instant-left{
+  .play-instant-left {
     width: 100%;
   }
-  .play-instant-right{
+  .play-instant-right {
     width: 70%;
   }
-  .background-img img{
+  .background-img img {
     width: 100%;
-    }
-.overlay-img img{
+  }
+  .overlay-img img {
     width: 50%;
     height: auto;
-    }
-  
-   
+  }
+
 }

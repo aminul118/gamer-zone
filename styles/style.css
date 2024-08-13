@@ -226,7 +226,7 @@
 
 /* Play Instantly,No Downloads No Installs Section or section 4 stars here */
 
-.play-instant-container{
+.play-instant-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -234,26 +234,35 @@
   margin: 100px auto;
 }
 
-.play-instant-left{
+.play-instant-left {
   width: 25%;
   text-align: center;
   margin: auto;
 }
 
-.play-instant-right{
+.play-instant-right {
   position: relative;
 }
-.background-img img{
-width: 100%;
+.background-img img {
+  width: 100%;
 }
-.overlay-img img{
-width: 100%;
-height: auto;
+.overlay-img img {
+  width: 100%;
+  height: auto;
 }
-.overlay-img{
-position: absolute;
-bottom:-10%;
-left: -20%;
+.overlay-img {
+  position: absolute;
+  bottom: -10%;
+  left: -20%;
 }
 
-<!-- Play Games Online Anywhere, Anytime! or section 5 stars here -->
+/* Play Games Online Anywhere, Anytime! or section 5 stars here */
+.play-games-container {
+  flex-direction: row-reverse;
+}
+.overlay-img-2 {
+  position: absolute;
+  bottom: -10%;
+  left: 75%;
+  width: 50%;
+}
