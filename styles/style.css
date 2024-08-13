@@ -116,19 +116,19 @@
 }
 .goat-left {
   width: 50%;
-  /* border: 2px solid yellow; */
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
 .goat-right {
   width: 50%;
-  /* border: 2px solid cyan; */
 }
 .play {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
+  color: black;
 }
+
 .goat {
   font-size: 5.8rem;
   font-weight: 800;
@@ -172,24 +172,24 @@
 
 /* Online Games Funny Videos Section or section 3 stars here */
 
-.section-three{
-width: 80%;
-margin: 0 auto;
-
+.section-three {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .online-games-container {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   gap: 1.5rem;
 }
-.online-games-container div>img{
+.online-games-container div > img {
   width: 100%;
 }
 
 .online-games {
   font-size: 3rem;
+  font-weight: 800;
 }
 .funny-video-top {
   text-align: center;
@@ -208,18 +208,52 @@ margin: 0 auto;
   display: none;
 }
 
-.online-games-1st-card img:hover{
+.online-games-1st-card img:hover {
   filter: brightness(50%);
 }
 
 .online-games-1st-card img:hover + .watch-now {
   display: block;
 }
-.play{
+.play-icon {
   font-size: 4rem;
   color: white;
 }
-.play>p{
+.play > p {
   color: tomato;
   font-size: 1.2rem;
 }
+
+/* Play Instantly,No Downloads No Installs Section or section 4 stars here */
+
+.play-instant-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.play-instant-left{
+  width: 25%;
+  text-align: center;
+  margin: auto;
+}
+
+.play-instant-right{
+  position: relative;
+}
+.background-img img{
+width: 100%;
+}
+.overlay-img img{
+width: 100%;
+height: auto;
+}
+.overlay-img{
+position: absolute;
+bottom:-10%;
+left: -20%;
+}
+
+<!-- Play Games Online Anywhere, Anytime! or section 5 stars here -->

@@ -68,4 +68,27 @@
     grid-template-columns: repeat(1, 1fr);
     row-gap: 1rem;
   }
+ 
+
+  .play-instant-container{
+    flex-direction: column;
+    width: 90%;
+    gap: 1.2rem;
+ 
+  }
+  .play-instant-left{
+    width: 100%;
+  }
+  .play-instant-right{
+    width: 70%;
+  }
+  .background-img img{
+    width: 100%;
+    }
+.overlay-img img{
+    width: 50%;
+    height: auto;
+    }
+  
+   
 }
